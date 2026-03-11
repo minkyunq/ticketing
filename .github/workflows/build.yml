@@ -31,5 +31,5 @@ jobs:
       - name: 📤 EXE 업로드
         uses: actions/upload-artifact@v4
         with:
-          name: 티켓팅매크로
+          name: ticketing
           path: dist/ticketing.exe
