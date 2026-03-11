@@ -25,6 +25,7 @@ jobs:
 
       - name: 🏗️ EXE 빌드
         run: |
+          mkdir image
           pyinstaller --onefile --windowed --name "티켓팅매크로" --add-data "image;image" ticketing.py
 
       - name: 📤 EXE 업로드
